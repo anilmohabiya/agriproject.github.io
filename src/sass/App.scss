@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+// @import "./sass/variable.scss";
+@import './variable.scss';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+    
+
+
+.post-container{
+    margin: 20px 20px 0 0;  
+    border:5px solid #333;
+    width:600px;
+    overflow:hidden;
+}
+
+.post-thumb img {
+    float: left;
+    clear:left;
+    width:80px;
+    height:80px;
+}
+
+.post-title {
+     float:left;   
+    margin-left:10px;
+}
+
+.post-content {
+    float:right;
+}
+
+
+.fallow{
+    font-size: 11px;
+    color: gray;
+}
+
+.fallow1{
+  font-size: 15px;
+  color: gray;
+}
+
+
+.temp{
+    color: gray;
+}
+
+
+.circle {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: rgba(58, 133, 191, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(58, 133, 191, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+
+  .rondedbox{
+      border-radius: 50%;
+      border: 1px solid black;
+
+  }
+
+//shop css
+.mainborders{
+    border:3px solid lightgrey !important;
+    border-radius:20px !important;
+  }
+
+  .bb{
+    border-radius: 10px !important;
+    
+  }
+  
+  .bb1{
+    border-radius: 50px !important;
+    
+  }
+  // image of a shop 
+//   .half{
+//     padding-left: 2rem;
+//     padding-top: 2rem;
+//     padding-right: 2rem;
+  
+//   }
+  
+  .fallow{
+    font-size: x-small;
+    color: gray;
+    font-weight: bold;
+  }
+
+  .hr3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+
+  border-top: 5px solid green;
+  }
+
+  .weather{
+      
+width: 120px;
+height: 120px;
+
+  }
+
+  .top-bar {
+    background: rgba(77, 80, 86, 0.91);
+    color: #fff;
+    font-size: 0.9rem;
+  
+  }
+.ftColor{
+  background-color: rgba(0, 0, 0, 0.71);;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 3px;
+  border-radius: 50%;
+}
+
+.fa-insta {
+  background: black;
+  color: white;
+}
+
+
+
+  .btnPadding{
+    padding-top: 200px;
+  }
+  
+
+  @media(max-width:768px){
+    .btnPadding{
+      padding-top: 10px;
+      text-align: center;
+    }
+  
+  }
+
+
+
+  
